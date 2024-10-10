@@ -19,7 +19,7 @@ services:
       dockerfile: Dockerfile
     container_name: synoptek_gpt
     volumes:
-      - synoptekgpt:/app/backend/data
+      - synoptek_gpt:/app/backend/data
     depends_on:
       - ollama
     ports:
