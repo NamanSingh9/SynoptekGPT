@@ -420,7 +420,7 @@
 						{$i18n.t('Trouble accessing Ollama?')}
 						<a
 							class=" text-gray-300 font-medium underline"
-							href="https://github.com/open-webui/open-webui#troubleshooting"
+							href="https://github.com/ollama/ollama/blob/main/docs/troubleshooting.md"
 							target="_blank"
 						>
 							{$i18n.t('Click here for help.')}
